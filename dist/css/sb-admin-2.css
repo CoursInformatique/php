@@ -9,12 +9,22 @@ body {
     font-weight: bold;
     color:#337ab7		;
 }
+.thickblueNav {
+    font-weight: bold;
+    color:#337ab7		;
+    font-size:18px;
+}
+
 .navButtom {
   font-size: 18px;
   font-weight: bold;
   color:#337ab7;
 }
-
+.scrollbar{
+  width:918px;
+  height:200px;
+  overflow:auto;
+}
 .thick{
   font-weight: bold;
 }
@@ -320,6 +330,13 @@ table.dataTable thead .sorting:after {
     border-radius: 25px;
     font-size: 18px;
     line-height: 1.33;
+
+}
+.sizebtn{
+  width: 150px;
+  height: 40px;
+  padding: 7px 7px;
+  line-height: normal;
 }
 
 .btn-circle.btn-xl {
