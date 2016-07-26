@@ -14,7 +14,9 @@ body {
     color:#337ab7		;
     font-size:18px;
 }
-
+.autre{
+  position:relative;
+}
 .navButtom {
   font-size: 18px;
   font-weight: bold;
