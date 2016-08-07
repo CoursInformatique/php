@@ -26,7 +26,7 @@
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
                 <img class="logoEntete" src="../../../img/logo.png">
-                <a class="navbar-brand Entete" href="../../index.html">Cours Informatique</a>
+                <a class="navbar-brand Entete" href="../../index.php">Cours Informatique</a>
 
                 <!--a class="navbar-brand" style="color:blue;">Mme Hayet Lamine Ep Abid</a-->
             </div>
@@ -43,7 +43,7 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="../../login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="../../login.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -66,33 +66,33 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="../../index.html">Accueil</a>
+                            <a href="../../index.php">Accueil</a>
                         </li>
                         <li><a href="#"><span class=thickblueNav>JavaScript</span></a></li>
                         <li>
-                                            <a href="IntroductionGénérale.html">Introduction générale</a>
+                                            <a href="IntroductionGénérale.php">Introduction générale</a>
                                         </li>
                                         <li>
-                                            <a href="LesÉlémentsDuLangage.html">Les éléments du langage</a>
+                                            <a href="LesÉlémentsDuLangage.php">Les éléments du langage</a>
                                         </li>
                                         <li>
                                             <a href="#" class="">Les objets javascript<span class="fa arrow"></span></a>
                                               <ul class="nav nav-second-level">
-                                                <li><a href="objets/global.html">L’objet Global</a></li>
-                                                <li><a href="objets/string.html">L’objet String</a></li>
-                                                <li><a href="objets/array.html">L’objet Array</a></li>
-                                                <li><a href="objets/date.html">L’objet Date</a></li>
-                                                <li><a href="objets/math.html">L’objet Math</a></li>
+                                                <li><a href="objets/global.php">L’objet Global</a></li>
+                                                <li><a href="objets/string.php">L’objet String</a></li>
+                                                <li><a href="objets/array.php">L’objet Array</a></li>
+                                                <li><a href="objets/date.php">L’objet Date</a></li>
+                                                <li><a href="objets/math.php">L’objet Math</a></li>
                                               </ul>
                                         </li>
                                         <li>
-                                            <a href="LesObjetsDuNavigateur.html">Les objets du navigateur</a>
+                                            <a href="LesObjetsDuNavigateur.php">Les objets du navigateur</a>
                                         </li>
                                         <li>
-                                            <a href="LesÉvènements.html">Les événements</a>
+                                            <a href="LesÉvènements.php">Les événements</a>
                                         </li>
                                         <li>
-                                          <a href="LesFormulaires.html">Les formulaires</a>
+                                          <a href="LesFormulaires.php">Les formulaires</a>
                                         </li>
                                     </ul>
                 </div>
@@ -106,8 +106,8 @@
                 <div class="row">
                   <h1 class="page-header"><img class="logo1" src="../../../img/logoJavascript.png" style="float:left;">JavaScript</h1>
                   <br/>
-                  <a class="navButtom col-lg-9" href="LesÉlémentsDuLangage.html">« Les éléments du Langage</a>
-                  <a class="navButtom col-lg-3" href="LesObjetsDuNavigateur.html">Chapitre Suivant »</a><br><br>
+                  <a class="navButtom col-lg-9" href="LesÉlémentsDuLangage.php">« Les éléments du Langage</a>
+                  <a class="navButtom col-lg-3" href="LesObjetsDuNavigateur.php">Chapitre Suivant »</a><br><br>
                   <h2>Les objets javaScript</h2>
                       <h3>1- L’objet global</h3>
                       <ul>
@@ -280,8 +280,8 @@ var anneenais = datenais.substring(6,4);<br>
 
 <br>
             </div> <!--container-fluid-->
-            <a class="navButtom col-lg-9" href="LesÉlémentsDuLangage.html">« Chapitre Précédent</a>
-            <a class="navButtom col-lg-3" href="LesObjetsDuNavigateur.html">Chapitre Suivant »</a><br><br>
+            <a class="navButtom col-lg-9" href="LesÉlémentsDuLangage.php">« Chapitre Précédent</a>
+            <a class="navButtom col-lg-3" href="LesObjetsDuNavigateur.php">Chapitre Suivant »</a><br><br>
 </div><!--page-wrapper-->
 
 </div><!--wrapper-->

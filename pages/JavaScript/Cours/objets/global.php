@@ -23,91 +23,15 @@
 <body>
     <div id="wrapper">
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <img class="logoEntete" src="../../../../img/logo.png">
-                <a class="navbar-brand Entete" href="../../../index.html">Cours Informatique</a>
+        <?php include ("../../../entete.php");?>
 
-                <!--a class="navbar-brand" style="color:blue;">Mme Hayet Lamine Ep Abid</a-->
-            </div>
-            <!-- /.navbar-header -->
-            <ul class="nav navbar-top-links navbar-right">
-                <!--img src="../logo.png"-->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="../../login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                </li>
-                <!-- /.dropdown -->
-            </ul>
-            <!-- /.navbar-top-links -->
-            <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav autre" id="side-menu">
-                        <li class="sidebar-search">
-                            <div class="input-group custom-search-form">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
-                            </div>
-                            <!-- /input-group -->
-                        </li>
-                        <li>
-                            <a href="../../../index.html">Accueil</a>
-                        </li>
-                        <li><a href="#"><span class=thickblueNav>JavaScript</span></a></li>
-                        <li>
-                                            <a href="../IntroductionGénérale.html">Introduction générale</a>
-                                        </li>
-                                        <li>
-                                            <a href="../LesÉlémentsDuLangage.html">Les éléments du langage</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="">Les objets javascript<span class="fa arrow"></span></a>
-                                              <ul class="nav nav-second-level">
-                                                <li><a href="global.html">L’objet Global</a></li>
-                                                <li><a href="string.html">L’objet String</a></li>
-                                                <li><a href="array.html">L’objet Array</a></li>
-                                                <li><a href="date.html">L’objet Date</a></li>
-                                                <li><a href="math.html">L’objet Math</a></li>
-                                              </ul>
-                                        </li>
-                                        <li>
-                                            <a href="../LesObjetsDuNavigateur.html">Les objets du navigateur</a>
-                                        </li>
-                                        <li>
-                                            <a href="../LesÉvènements.html">Les événements</a>
-                                        </li>
-                                        <li>
-                                          <a href="../LesFormulaires.html">Les formulaires</a>
-                                        </li>
-                                    </ul>
-                </div>
-                <!-- /.sidebar-collapse -->
-            </div>
-            <!-- /.navbar-static-side -->
-        </nav>
-        <!-- Page Content -->
         <div id="page-wrapper">
             <div class="container-fluid">
                 <div class="row">
                   <h1 class="page-header"><img class="logo1" src="../../../../img/logoJavascript.png" style="float:left;">JavaScript</h1>
                   <br/>
-                  <a class="navButtom col-lg-9" href="../LesÉlémentsDuLangage.html">« Les éléments du langage</a>
-                  <a class="navButtom col-lg-3" href="string.html">L'objet String »</a><br><br>
+                  <a class="navButtom col-lg-9" href="../LesÉlémentsDuLangage.php">« Les éléments du langage</a>
+                  <a class="navButtom col-lg-3" href="string.php">L'objet String »</a><br><br>
                   <h2>Les objets javaScript</h2>
                       <h3>L’objet global</h3>
                       <ul>
@@ -214,22 +138,13 @@ document.write(<span style="color:red">"ch = "</span>+ch+"<span style="color:bro
 
 <br>
             </div> <!--container-fluid-->
-            <a class="navButtom col-lg-9" href="../LesÉlémentsDuLangage.html">« Les éléments du langage</a>
-            <a class="navButtom col-lg-3" href="string.html">L'objet String »</a><br><br>
+            <a class="navButtom col-lg-9" href="../LesÉlémentsDuLangage.php">« Les éléments du langage</a>
+            <a class="navButtom col-lg-3" href="string.php">L'objet String »</a><br><br>
 </div><!--page-wrapper-->
 
 </div><!--wrapper-->
-    <footer>
-      <div class="container">
-        <!--img class="logo" src="../../../img/logo.png"-->
-        <p class="copyright col-lg-9">
-        &copy;Copyright Mme Hayet Lamine Ep Abid - ISET Sfax.
-      </p>
-    <p class="copyright col-lg-3">
-      <img class="logoMail" src="../../../../img/mail.png"> <a href="#">lamine_hayet@yahoo.fr</a>
-    </p>
-      </div>
-</footer>
+<?php include ("../../../footer.php");?>
+
 
     <script src="../../../../bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
